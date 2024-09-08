@@ -23,6 +23,13 @@ llo World!
 Hello World!Hello World!
 Hello World!TEST
 
+len(str)
+str.upper()改为大写
+str.lower()改为小写
+str.find('H')返回寻找的索引0
+str.replace()替换
+print('...' in str)返回布尔值
+
 ##
 
 list = [ 'runoob', 786 , 2.23, 'john', 70.2 ]
