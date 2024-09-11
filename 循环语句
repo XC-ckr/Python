@@ -1,0 +1,74 @@
+while <expr>:
+    <statement(s)>
+else:
+    <additional_statement(s)>
+
+    ##
+
+    for <variable> in <sequence>:
+    <statements>
+else:
+    <statements>
+    如果系列中没有元素则跳出循环
+
+word = 'runoob'
+ 
+for letter in word:
+    print(letter)
+
+r
+u
+n
+o
+o
+b
+
+##
+
+for i in range(5):
+     print(i)
+
+0
+1
+2
+3
+4
+
+##
+
+for i in range(0, 10, 3) :
+    print(i)
+ 
+    
+0
+3
+6
+9
+
+##
+
+break 语句可以跳出 for 和 while 的循环体。如果你从 for 或 while 循环中终止，任何对应的循环 else 块将不执行。
+continue 语句被用来告诉 Python 跳过当前循环块中的剩余语句，然后继续进行下一轮循环。
+
+##
+
+pass语句
+
+for letter in 'Runoob': 
+   if letter == 'o':
+      pass
+      print ('执行 pass 块')
+   print ('当前字母 :', letter)
+ 
+print ("Good bye!")
+执行以上脚本输出结果为：
+
+当前字母 : R
+当前字母 : u
+当前字母 : n
+执行 pass 块
+当前字母 : o
+执行 pass 块
+当前字母 : o
+当前字母 : b
+Good bye!
