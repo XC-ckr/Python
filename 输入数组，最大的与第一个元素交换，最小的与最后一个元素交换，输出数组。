@@ -1,0 +1,19 @@
+num = input('请输入数字，用空格隔开\n')  
+item = num.split(" ")
+list = [int(x) for x in item]  #将item中的元素转换成整数制成新列表list
+print('输入的数组为',list)
+max = int(list[0])             #赋给max一个初始值
+for a in list:
+    if a > max:
+        max = a
+key_max = list.index(max)      #寻找max的索引并交换
+list [key_max] = list[0]
+list[0] = max
+min = int(list[-1])            #最小值同理
+for b in list:
+    if b < min:
+        min = b
+key_min = list.index(min)
+list [key_min] = list[-1]
+list[-1] = min
+print(list)
