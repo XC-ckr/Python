@@ -1,0 +1,8 @@
+使用 class 语句来创建一个新类，class 之后为类的名称并以冒号结尾:
+
+class ClassName:
+   '类的帮助信息'   #类文档字符串
+   class_suite  #类体
+类的帮助信息可以通过ClassName.__doc__查看。
+
+class_suite 由类成员，方法，数据属性组成。
